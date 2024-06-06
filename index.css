@@ -1,0 +1,41 @@
+.row{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+}
+.row div div{ 
+    padding-bottom:  10px;
+    padding-right: 10px;
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+}
+.row-2{
+display: grid;
+grid-template-columns: 67% 33%;
+}
+.absolute{
+    position: absolute;
+    top: 20px;
+    left: 230px;
+    
+}
+.absolute-2{
+    position: absolute;
+    top:  55px;
+    left: 220px;
+}
+.banner{
+    position: relative;
+    color: rgb(207, 251, 236);
+}
+.menu{
+    display: grid;
+    grid-template-columns: 10% 10% 60% 10% 10%;
+
+}
+ul li {
+    list-style-type: none;
+}
