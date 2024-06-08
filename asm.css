@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.container img{
+    border-radius: 10px;
+    width: 100%;
+}
+.container div{
+padding-bottom: 10px;
+padding-right: 10px; 
+}
+.absolute{
+    position: absolute;
+    top:  30px;
+    left: 250px;
+}
+.absolute-2{
+    position: absolute;
+    top:  60px;
+    left: 250px;
+}
+.banner{
+    position: relative;
+    color: rgb(199, 252, 225);
+}
+.footer{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 60% 10% 10% 10% 10%;
+    list-style: none;
+}
+.a{
+    margin-top: 15px;
+}
